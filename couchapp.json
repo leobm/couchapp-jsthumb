@@ -1,0 +1,4 @@
+{
+    "name": "jsthumb",
+    "description": "couchapp lab project: upload an image and generate a client-side thumbnail with couchdb and HTML5 canvas"
+}
