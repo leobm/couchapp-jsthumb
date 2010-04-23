@@ -1,0 +1,12 @@
+INSTALL
+	
+	1. cd couchapp-jsthumb
+	
+	2. couchapp push couchapp-jsthumb
+	
+	3. http://127.0.0.1:5984/couchapp-jsthumb/_design/couchapp-jsthumb/index.html
+
+	
+THANKS
+
+	Big Thanks to Chris Anderson http://jchrisa.net for giving us couchapp http://github.com/jchris/couchapp
