@@ -14,7 +14,7 @@
 <canvas id="myCanvas" width="200" height="200" style="border: 1px solid #f00; z-index: -1;position:absolute; visibility:hidden;"></canvas>
 <script type="text/javascript">
 $(document).ready(function() {
-	var db = new CouchDB("jsthumb", {"X-Couch-Full-Commit":"true"});
+	var db = new CouchDB("couchapp-jsthumb", {"X-Couch-Full-Commit":"true"});
 	Jaml.register('upload-form', function(data) {
 		form({ id: 'upload-form', method: 'post', action: '', enctype: 'multipart/form-data' },
 			fieldset(
@@ -51,7 +51,7 @@ $(document).ready(function() {
 			)
 		)
 	});
-	var dbURL = 'http://'+self.location.host+'/jsthumb/';
+	var dbURL = 'http://'+self.location.host+'/couchapp-jsthumb/';
 	
 	var form_wrapper = $('#upload-form-wrapper');
 	form_wrapper.html(Jaml.render('upload-form'));
